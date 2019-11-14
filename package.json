@@ -4,6 +4,7 @@
   "description": "mysql",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Asidmarie",
@@ -11,5 +12,8 @@
   "devDependencies": {
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
